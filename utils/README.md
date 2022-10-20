@@ -1,5 +1,4 @@
 # hi
-![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen)
 
 ## Description
 
@@ -33,7 +32,7 @@ hi
 
 ## Contributing
 
-hi 
+hi
 
 ## Tests
 
@@ -44,12 +43,14 @@ hi
 ```
 
 ## License
-    
-    This project is licensed under the Mozilla. To learn more about this license, go to:
-https://opensource.org/licenses/MPL-2.0 
+
+![License: Boost Software License 1.0](https://img.shields.io/badge/License-Boost_1.0-lightblue)
+
+    This project is licensed under the Boost Software License 1.0. To learn more about this license, go to:
+https://www.boost.org/LICENSE_1_0.txt
 
 ## Questions
 
 If you have any questions, please contact me at email@email.com.
 For more of my work, please refer to my GitHub page:
-[username](https://github.com/username/)
+[fakeuser](https://github.com/fakeuser/)

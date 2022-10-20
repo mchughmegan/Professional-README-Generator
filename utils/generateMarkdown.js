@@ -10,7 +10,22 @@ function renderLicenseBadge(license) {
     return `![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen)`
   }
   else if (license === "MIT") {
-    return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow)`
+    return `![License: MIT License](https://img.shields.io/badge/License-MIT-yellow)`
+  }
+  else if (license === "The Unlicense") {
+    return `![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue)`
+  }
+  else if (license === "Apache License 2.0") {
+    return `![License: Apache License 2.0](https://img.shields.io/badge/License-Apache_2.0-blue)`
+  }
+  else if (license === "GNU General Public License v3.0") {
+    return `![License: GNU General Public License v3.0](https://img.shields.io/badge/License-GPLv3-blue)`
+  }
+  else if (license === "Boost Software License 1.0") {
+    return `![License: Boost Software License 1.0](https://img.shields.io/badge/License-Boost_1.0-lightblue)`
+  }
+  else if (license === "Eclipse Public License 1.0") {
+    return `![License: Eclipse Public License 1.0](https://img.shields.io/badge/License-EPL_1.0-red)`
   }
   return "";
 }
@@ -28,6 +43,21 @@ function renderLicenseLink(license) {
   else if (license === "MIT") {
     return `https://opensource.org/licenses/MIT `
   }
+  else if (license === "The Unlicense") {
+    return `https://unlicense.org/`
+  }
+  else if (license === "Apache License 2.0") {
+    return `https://opensource.org/licenses/Apache-2.0`
+  }
+  else if (license === "GNU General Public License v3.0") {
+    return `https://www.gnu.org/licenses/gpl-3.0`
+  }
+  else if (license === "Boost Software License 1.0") {
+    return `https://www.boost.org/LICENSE_1_0.txt`
+  }
+  else if (license === "Eclipse Public License 1.0") {
+    return `https://opensource.org/licenses/EPL-1.0`
+  }
   return "";
 }
 
@@ -35,8 +65,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None"){
-    return `## License
-    
+    return `
     This project is licensed under the ${license}. To learn more about this license, go to:`
   }
   return "No license was used for this project.";
@@ -46,7 +75,6 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-${renderLicenseBadge(data.license)}
 
 ## Description
 
@@ -90,6 +118,9 @@ To run tests, run the following command:
 ${data.tests}
 \`\`\`
 
+## License
+
+${renderLicenseBadge(data.license)}
 ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
 

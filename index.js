@@ -45,8 +45,13 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'What is the license for this project?',
-    choices: ['Mozilla',  
-    'MIT',
+    choices: ['The Unlicense',
+    'Eclipse Public License 2.0',
+    'GNU General Public License v3.0',
+    'Boost Software License 1.0',
+    'Apache License 2.0',
+    'Mozilla License',  
+    'MIT License',
     'None'],
     },
     {
@@ -77,6 +82,14 @@ function init() {
         writeFile('./utils/README.md', generateMarkdown({ ...inquirerResponses }));
     });
 };
+
+// const init = () => {
+//     promptUser()
+//       .then((answers) => writeFile('./utils/README.md', generateMarkdown(answers)))
+//       .then(() => console.log('Successfully wrote your README.md'))
+//       .catch((err) => console.error(err));
+//   };
+  
 
 // Function call to initialize app
 init();
