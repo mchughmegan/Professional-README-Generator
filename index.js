@@ -45,11 +45,8 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'What is the license for this project?',
-    choices: ['Apache', 
-    'GNU', 
-    'MIT', 
-    'BSD',
-    'Mozilla',
+    choices: ['Mozilla',  
+    'MIT',
     'None'],
     },
     {

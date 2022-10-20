@@ -1,9 +1,9 @@
 # hi
-![Apache badge](https://img.shields.io/badge/License-Apache-blue)
+![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen)
 
 ## Description
 
-hello
+hi
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ hello
 To install necessary dependencies, run the following command:
 
 ```
-how are you
+hi
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ hi
 
 ## Contributing
 
-hi
+hi 
 
 ## Tests
 
@@ -45,10 +45,11 @@ hi
 
 ## License
     
-    This project is licensed under the Apache.
+    This project is licensed under the Mozilla. To learn more about this license, go to:
+https://opensource.org/licenses/MPL-2.0 
 
 ## Questions
 
-If you have any questions, please contact me at user@email.
+If you have any questions, please contact me at email@email.com.
 For more of my work, please refer to my GitHub page:
-[useruser](https://github.com/useruser/)
+[username](https://github.com/username/)
