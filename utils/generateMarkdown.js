@@ -41,9 +41,10 @@ ${data.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-${renderLicenseLink(data.license)}
+* [Credits](#credits)
 * [Contributing](#contributing)
 * [Tests](#tests)
+${renderLicenseLink(data.license)}
 * [Questions](#questions)
 
 ## Installation
@@ -58,7 +59,9 @@ ${data.installation}
 
 ${data.usage}
 
-${renderLicenseSection(data.license)}
+## Credits
+
+${data.credits}
 
 ## Contributing
 
@@ -72,10 +75,12 @@ To run tests, run the following command:
 ${data.tests}
 \`\`\`
 
+${renderLicenseSection(data.license)}
+
 ## Questions
 
 If you have any questions, please contact me at ${data.email}.
-For more of my work, please refer to my GitHub:
+For more of my work, please refer to my GitHub page:
 [${data.github}](https://github.com/${data.github}/`
 ;
 }
