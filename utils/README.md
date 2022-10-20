@@ -1,8 +1,8 @@
-# hi
+# Awesome Application
 
 ## Description
 
-hi
+This project makes things awesome. I built it to help others be awesome.
 
 ## Table of Contents
 
@@ -19,38 +19,38 @@ hi
 To install necessary dependencies, run the following command:
 
 ```
-hi
+node index js
 ```
 
 ## Usage
 
-hi
+To use the project, enter node index js in the terminal
 
 ## Credits
 
-hi
+Everyone
 
 ## Contributing
 
-hi
+To contribute to this project...
 
 ## Tests
 
 To run tests, run the following command:
 
 ```
-hi
+fake command
 ```
 
 ## License
 
-![License: Boost Software License 1.0](https://img.shields.io/badge/License-Boost_1.0-lightblue)
+![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue)
 
-    This project is licensed under the Boost Software License 1.0. To learn more about this license, go to:
-https://www.boost.org/LICENSE_1_0.txt
+    This project is licensed under the The Unlicense. To learn more about this license, go to:
+https://unlicense.org/
 
 ## Questions
 
-If you have any questions, please contact me at email@email.com.
+If you have any questions, please contact me at fake@email.com.
 For more of my work, please refer to my GitHub page:
 [fakeuser](https://github.com/fakeuser/)

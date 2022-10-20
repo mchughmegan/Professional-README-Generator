@@ -1,11 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  // if (license !== "None"){
-  //   toLowerCase("license");
-  //   return `![${license} badge](https://img.shields.io/badge/License-${license}-blue)`
-  // }
-  // return "";
   if (license === "Mozilla") {
     return `![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen)`
   }

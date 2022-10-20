@@ -19,7 +19,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        message: 'What command do you need to install any necessary dependencies?',
+        message: 'What commands do you need to do to install any dependencies for the project?',
     },
     {
         type: 'input',
@@ -71,10 +71,6 @@ function writeFile (fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
 
-// (fileName, data, (err) =>
-// err ? console.log(err) : console.log('Successfully created index.html!')
-// )
-
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((inquirerResponses) => {
@@ -82,14 +78,6 @@ function init() {
         writeFile('./utils/README.md', generateMarkdown({ ...inquirerResponses }));
     });
 };
-
-// const init = () => {
-//     promptUser()
-//       .then((answers) => writeFile('./utils/README.md', generateMarkdown(answers)))
-//       .then(() => console.log('Successfully wrote your README.md'))
-//       .catch((err) => console.error(err));
-//   };
-  
 
 // Function call to initialize app
 init();
