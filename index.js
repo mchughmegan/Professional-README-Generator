@@ -14,7 +14,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Describe your project.What did you build, why did you build it, did you learn anything in the process?',
+        message: 'Describe your project. What did you build, why did you build it, did you learn anything in the process?',
     },
     {
         type: 'input',
@@ -72,15 +72,19 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeFile(fileName, data) {
+function writeFile (fileName, data) {
     return fs.writeFileSync(path.join(process.cwd(), fileName), data);
 }
+
+// (fileName, data, (err) =>
+// err ? console.log(err) : console.log('Successfully created index.html!')
+// )
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((inquirerResponses) => {
         console.log('Generating your readme file');
-        writeFile('readme.md', generateMarkdown({ ...inquirerResponses }));
+        writeFile('./utils/README.md', generateMarkdown({ ...inquirerResponses }));
     });
 };
 
