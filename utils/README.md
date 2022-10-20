@@ -1,5 +1,5 @@
 # hi
-![GNU Lesser General Public License v2.1 badge](https://img.shields.io/badge/License-GNU Lesser General Public License v2.1-blue)
+![Apache badge](https://img.shields.io/badge/License-Apache-blue)
 
 ## Description
 
@@ -25,27 +25,27 @@ how are you
 
 ## Usage
 
-I am tired
+hi
 
 ## Credits
 
-everyone
+hi
 
 ## Contributing
 
-by giving me a good grade
+hi
 
 ## Tests
 
 To run tests, run the following command:
 
 ```
-all commands
+hi
 ```
 
 ## License
     
-    This project is licensed under the GNU Lesser General Public License v2.1.
+    This project is licensed under the Apache.
 
 ## Questions
 
