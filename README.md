@@ -7,7 +7,7 @@ This project uses node.js to create a Professional README. It simplifies the pro
 
 ## Table of Contents
 
-* [Installation] [#installation]
+* [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
