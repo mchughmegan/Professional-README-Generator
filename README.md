@@ -7,10 +7,19 @@ This project uses node.js to create a Professional README. It simplifies the pro
 
 ## Table of Contents
 
+* [Installation] [#installation]
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
 * [Questions](#questions)
+
+## Installation
+
+In VS Code, enter the following in the integrated terminal to install the applicable version of inquirer:
+
+```
+npm i inquirer@8.2.4
+```
 
 ## Usage
 
