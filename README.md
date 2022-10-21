@@ -14,7 +14,7 @@ This project uses node.js to create a Professional README. It simplifies the pro
 
 ## Usage
 
-In VS Code, the user will need to open their integrated terminal. In the terminal, they will need to type node index js. The user will then be prompted with questions regarding each section that should go in a professional README.md.
+In VS Code, the user will need to open their integrated terminal. In the terminal, they will need to type node index js. The user will then be prompted with questions regarding each section that should go in a professional README.md. Once the user has answered the question, a README.md will generate. The user can locate their Professional README.md in the utils folder.
 
 ## Credits
 
@@ -22,6 +22,12 @@ In order to find links to badges and information on each license, this site was 
 
 Inquirer and fs packages can be found at:
 https://www.npmjs.com/
+
+fs.writeFileSync tutorial:
+https://www.geeksforgeeks.org/node-js-fs-writefilesync-method/
+
+process.cwd() tutorial:
+https://www.geeksforgeeks.org/node-js-process-cwd-method/
 
 ## License
     

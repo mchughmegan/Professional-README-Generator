@@ -1,56 +1,55 @@
-# Awesome Application
+# Amazing Application
+
+
 
 ## Description
 
-This project makes things awesome. I built it to help others be awesome.
+This product will make your life easier. The inspiration behind building this project is to make daily life less stressful. In creating this, I learned about node.js and inquirer.
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [License](#license)
-* [Questions](#questions)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
 ## Installation
 
 To install necessary dependencies, run the following command:
 
 ```
-node index js
+npm i fake
 ```
 
 ## Usage
 
-To use the project, enter node index js in the terminal
+The user will need to enter their information in the  input box then  click the submit button or press enter. After clicking the button or pressing enter, the user will be prompted with additional questions based on their original input.
 
 ## Credits
 
-Everyone
+For this project, I used the tutorial from geekyfaketutorials regarding index.fake and the fake function. For more information, go to faketutorials.com.
 
 ## Contributing
 
-To contribute to this project...
+Please follow the Contributor Covenant Code of COnduct. For more information, please go to contributor-covenant.org.
 
 ## Tests
 
 To run tests, run the following command:
 
 ```
-fake command
+./fake test
 ```
 
 ## License
 
-![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue)
 
-    This project is licensed under the The Unlicense. To learn more about this license, go to:
-https://unlicense.org/
+
 
 ## Questions
 
-If you have any questions, please contact me at fake@email.com.
+If you have any questions, please contact me at fakeuser@email.com.
 For more of my work, please refer to my GitHub page:
-[fakeuser](https://github.com/fakeuser/)
+[userfake](https://github.com/userfake/)

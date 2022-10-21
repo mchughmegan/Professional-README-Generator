@@ -28,30 +28,33 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  // if (license !== "None"){
-  //   return `https://opensource.org/licenses/${license}`
-  // }
-  // return "";
   if (license === "Mozilla") {
-    return `https://opensource.org/licenses/MPL-2.0 `
+    return `https://opensource.org/licenses/MPL-2.0
+    `
   }
   else if (license === "MIT") {
-    return `https://opensource.org/licenses/MIT `
+    return `https://opensource.org/licenses/MIT
+    `
   }
   else if (license === "The Unlicense") {
-    return `https://unlicense.org/`
+    return `https://unlicense.org/
+    `
   }
   else if (license === "Apache License 2.0") {
-    return `https://opensource.org/licenses/Apache-2.0`
+    return `https://opensource.org/licenses/Apache-2.0
+    `
   }
   else if (license === "GNU General Public License v3.0") {
-    return `https://www.gnu.org/licenses/gpl-3.0`
+    return `https://www.gnu.org/licenses/gpl-3.0
+    `
   }
   else if (license === "Boost Software License 1.0") {
-    return `https://www.boost.org/LICENSE_1_0.txt`
+    return `https://www.boost.org/LICENSE_1_0.txt
+    `
   }
   else if (license === "Eclipse Public License 1.0") {
-    return `https://opensource.org/licenses/EPL-1.0`
+    return `https://opensource.org/licenses/EPL-1.0
+    `
   }
   return "";
 }
@@ -60,10 +63,35 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None"){
-    return `
+    return `## License
+
     This project is licensed under the ${license}. To learn more about this license, go to:`
   }
-  return "No license was used for this project.";
+  return "";
+
+} 
+
+//Function to create Table of Contents. If no License, no license on Table of Contents
+function renderTableofContents (license) {
+  if (license !== "None"){
+    return `## Table of Contents
+
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Credits](#credits)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [License](#license)
+    * [Questions](#questions)`
+  }
+  return `## Table of Contents
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Credits](#credits)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)`;
 
 } 
 
@@ -71,19 +99,13 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+${renderLicenseBadge(data.license)}
+
 ## Description
 
 ${data.description}
 
-## Table of Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
-* [Credits](#credits)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [License](#license)
-* [Questions](#questions)
+${renderTableofContents(data.license)}
 
 ## Installation
 
@@ -113,12 +135,8 @@ To run tests, run the following command:
 ${data.tests}
 \`\`\`
 
-## License
-
-${renderLicenseBadge(data.license)}
 ${renderLicenseSection(data.license)}
 ${renderLicenseLink(data.license)}
-
 ## Questions
 
 If you have any questions, please contact me at ${data.email}.
