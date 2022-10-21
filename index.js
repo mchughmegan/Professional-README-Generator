@@ -46,7 +46,7 @@ const questions = [
     name: 'license',
     message: 'What is the license for this project?',
     choices: ['The Unlicense',
-    'Eclipse Public License 2.0',
+    'Eclipse Public License 1.0',
     'GNU General Public License v3.0',
     'Boost Software License 1.0',
     'Apache License 2.0',

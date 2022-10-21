@@ -1,19 +1,20 @@
-# Amazing Application
+# Amazing Fake Application
 
-
+![License: MIT License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## Description
 
-This product will make your life easier. The inspiration behind building this project is to make daily life less stressful. In creating this, I learned about node.js and inquirer.
+This project will make your life easier. The inspiration behind this project was to make life less stressful. In creating this project, I learned about node.js and inquirer.
 
 ## Table of Contents
 
-  * [Installation](#installation)
-  * [Usage](#usage)
-  * [Credits](#credits)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
-  * [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [License](#license)
+* [Questions](#questions)
 
 ## Installation
 
@@ -25,15 +26,15 @@ npm i fake
 
 ## Usage
 
-The user will need to enter their information in the  input box then  click the submit button or press enter. After clicking the button or pressing enter, the user will be prompted with additional questions based on their original input.
+The user will need to enter their information in the input fields upon entering the site. Then, they will need to either click the submit button or press the enter key. The user will then be prompted to answer additional questions based on their initial input.
 
 ## Credits
 
-For this project, I used the tutorial from geekyfaketutorials regarding index.fake and the fake function. For more information, go to faketutorials.com.
+To learn more about fake.js, I went to the faketutorials website. For more information, see faketutorials.com.
 
 ## Contributing
 
-Please follow the Contributor Covenant Code of COnduct. For more information, please go to contributor-covenant.org.
+Please follow the Contributor Covenant Code of Conduct. For more information, go to contributor-covenant.org
 
 ## Tests
 
@@ -45,8 +46,9 @@ To run tests, run the following command:
 
 ## License
 
-
-
+This project is licensed under the MIT License. To learn more about this license, go to:
+    
+https://opensource.org/licenses/MIT
 
 ## Questions
 
