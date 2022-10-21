@@ -4,7 +4,7 @@
 
 ## Description
 
-This project will make your life easier. The inspiration behind this project was to make life less stressful. In creating this project, I learned about node.js and inquirer.
+This project will make your life easier. The inspiration behind this fake project was to take away the stress from daily life. Working on this project, I learned about node.js and inquirer.
 
 ## Table of Contents
 
@@ -26,15 +26,15 @@ npm i fake
 
 ## Usage
 
-The user will need to enter their information in the input fields upon entering the site. Then, they will need to either click the submit button or press the enter key. The user will then be prompted to answer additional questions based on their initial input.
+When the user enters the application, they will need to enter the requested information in the input box. Then, they will need to either press enter on the keyboard or click the submit button. The user will then be prompted with additional questions.
 
 ## Credits
 
-To learn more about fake.js, I went to the faketutorials website. For more information, see faketutorials.com.
+For this project, I used the fake.js tutorials from faketutorialswebsite. For information, please go to the fake.js tutorial at faketutorials.com.
 
 ## Contributing
 
-Please follow the Contributor Covenant Code of Conduct. For more information, go to contributor-covenant.org
+Please follow the Contributor Covenant Code of Conduct. For more information, please go to contributor-covenant.org
 
 ## Tests
 
