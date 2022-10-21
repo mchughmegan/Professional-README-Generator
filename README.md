@@ -3,7 +3,7 @@
 
 ## Description
 
-This project uses node.js to create a Professional README. It simplifies the process of creating a README file. Inquirer and fs were two crucial packages that made the Professional README Generator possible. To view a video walkthrough, click on this link https://drive.google.com/file/d/1c6jOkd26Dn45Bjda_fc7sKDg_FuE9qIe/view.
+This project uses node.js to create a Professional README. It simplifies the process of creating a README file. Inquirer and fs were two crucial packages that made the Professional README Generator possible.
 
 ## Table of Contents
 
@@ -22,6 +22,8 @@ npm i inquirer@8.2.4
 ```
 
 ## Usage
+
+To view a video walkthrough of the application, click on this link https://drive.google.com/file/d/1c6jOkd26Dn45Bjda_fc7sKDg_FuE9qIe/view. 
 
 In VS Code, the user will need to open their integrated terminal by right clicking on the index.js file. 
 
